@@ -14,3 +14,10 @@ puts heights.push(1.6)
 
 # adds an element to the beginning of an array, but the element has to be assigned
 puts is_alive.unshift(false)
+
+# when run in Ruby, this will return the value "Jose"
+puts names[2]
+
+# the method take returns the first n elements of an array. The below will
+# return [2.1, 1.8]
+puts heights.take(2)
